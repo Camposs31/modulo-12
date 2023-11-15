@@ -1,0 +1,250 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f5f5f5; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    float: initial;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 144rem;
+}
+
+header {
+    background: #3e546669;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid #91a2b1;
+}
+
+h1 {
+    padding: 0px 88px 8px;
+    font-size: 1.4rem;
+    color: #254159;
+    float: left;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #385874;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 2.2;
+    color: #333;
+    font-family: cursive;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+
+section {
+    background-color: #3e546669;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /* equivalente a 15px */ 
+    padding: 20px 0;
+    width: 100%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 22%;
+    padding: 1rem 0rem;
+    color: steelblue;
+    margin-block: 6rem;
+}
+
+nav li {
+    background-color: #efefef;
+    margin: 16px 41px 15px 0;
+    padding: 8px;
+    list-style-type: disclosure-closed;
+    list-style-position: inside;
+    border-style: outset;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover {
+    color: #385874;
+}
+
+section article {
+    display: block;
+    padding: 0rem 32rem;
+    display: math;
+}
+
+footer {
+    background-color: #254159;  
+    display: block;
+    float: left;
+    padding: 1%;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 496px !important;
+    overflow: hidden !important;
+}
+
+@media (max-width: 320px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around;
+    }
+}
+
+#banner {
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.legenda-container {
+    width: 36vw;
+    float: right;
+    margin: 0vh 2vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 16px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+
+.legenda h5,
+.legenda h4 {
+    color: #254159;
+    line-height: 150%;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: block;
+    background-color: black;
+    color: #42a5f5;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 28px #4547f6;
+    padding: 12px 18px;
+    width: max-content;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+dl {
+    margin: 8rem 0;
+}
+
+dt {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+dd {
+    margin-left: 38px;
+    margin-bottom: 20px;
+}
